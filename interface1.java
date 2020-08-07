@@ -1,17 +1,15 @@
 class CalculatorDummy {
 	int left, right;
-	public void newSetOprands(int left, int right) {
+	public void setOprands(int left, int right) {
 		this.left = left;
 		this.right = right;
 	}
-	public void setOprands(int first, int second, int third) {}
-	public int sum() {
-		return 60;
+	public void sum() {
+		return this.left + this.right;
 	}
-	public int avg() {
-		return 20;
+	public void avg() {
+		return (this.left + this.right)/2;
 	}
-	
 }
 
 public class interface1 {

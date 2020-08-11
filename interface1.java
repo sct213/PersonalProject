@@ -11,7 +11,11 @@ class CalculatorDummy {
 		return (this.left + this.right)/2;
 	}
 }
-
+public class inter{
+  public static void main(String[] args) {
+    System.out.println("hello0")
+  }
+}
 public class interface1 {
 	public static void main(String[] args) {
 		CalculatorDummy c = new CalculatorDummy();

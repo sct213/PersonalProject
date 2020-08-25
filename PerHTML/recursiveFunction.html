@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+	<script>
+	// 재귀함수를 적용하여 1부터 10까지 출력하는 예제
+		var num = 0;
+		function testFnc() {
+			num++;
+			document.write(num, "<br>");
+			if(num == 10) return;
+			// num의 값이 10이 되면 return;
+			
+			testFnc();
+		}
+		
+		testFnc();
+	</script>
+	<body>
+	
+	</body>
+</html>

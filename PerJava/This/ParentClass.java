@@ -3,8 +3,9 @@ public class ParentClass {
 	private String father;
 	
 	public ParentClass(){
-		this.mother = "mother";
-		this.father = "father";
+//		this.mother = "mother";
+//		this.father = "father";
+		this("mother", "father");
 	}
 	
 	public ParentClass(String mother, String father){

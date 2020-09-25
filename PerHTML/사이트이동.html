@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	<script>
+	var site = prompt("네이버, 다음, 구글 중 \
+				즐겨 사용하는 사이트는 ?", ""); 
+	// 문자열 데이터는 주를 바꾸면 오류가 발생합니다. 하지만 \ 와 함께 코드를
+	// 작성하면 문자열의 줄을 바꿔도 오류가 발생하지 않습니다.
+	var url;
+	
+	switch(site){
+		case "google":url="www.google.com";
+		break;
+		
+		case "daum": url = "www.daum.net";
+		break;
+		
+		case "naver" : url = "www.naver.com";
+		break;
+		
+		default:alert("보기 중 없는 사이트입니다.");
+	}
+	alert('"' + url + '"로 이동하겠습니다.');
+	
+	if(url) location.href = "http://" + url;
+	</script>
+	</body>
+</html>
